@@ -1,13 +1,12 @@
 import { defineStore } from 'pinia'
-import { Names } from './store-name'
 
-export const useTestStore = defineStore(Names.TEST, {
+export const useTestStore = defineStore('TEST', {
   state: () => {
     return {
       current: 1,
-      name: '111',
+      name: '111'
     }
   },
   getters: {},
-  actions: {},
+  actions: {}
 })

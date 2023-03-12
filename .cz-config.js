@@ -72,7 +72,7 @@ module.exports = {
   allowBreakingChanges: ['feat', 'fix'],
 
   // 跳过要询问的步骤
-  skipQuestions: ['scope', 'body', 'breaking', 'footer'],
+  // skipQuestions: ['scope', 'body', 'breaking', 'footer'],
 
   subjectLimit: 100, // subject 限制长度
   breaklineChar: '|' // 换行符，支持 body 和 footer
