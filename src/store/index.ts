@@ -4,7 +4,7 @@ export const useTestStore = defineStore('TEST', {
   state: () => {
     return {
       current: 1,
-      name: '111'
+      name: '1111'
     }
   },
   getters: {},
